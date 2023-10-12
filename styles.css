@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box
+    }
+    
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,800;1,500;1,700&family=Poppins:ital,wght@0,300;0,600;1,400&display=swap');
+    body{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .box{
+    
+    
+        background-color: white;
+        width: 375px;
+        height: 1360px;
+    }
+    
+    .text1{
+    
+        width: 297px;
+        height: 36px;
+        font-family: 'Poppins';
+        /* opacity: 95%; */
+        font-weight: 275px;
+        color: rgba(77, 79, 98, 1);
+        line-height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        font-size: 24px;
+        margin: 85px 32px 100px;
+        
+    
+    }
+    
+    
+    .by{
+    font-family: 'Poppins';
+    width: 295px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(77, 79, 98, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 30px;
+    
+    
+    }
+    
+    .text2{
+     font-family: 'poppins';
+     font-weight: 400px;
+     width: 311px;
+     height:75px;
+     opacity:50%;
+     font-size: 18px;
+     line-height: 20px;
+     color: rgba(77, 79, 98, 1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 9px 36px 100px;
+     text-align: center;
+     
+    }
+    
+    
+    .gridbox{
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto;
+        padding: 322px 32px;
+        column-gap: 32px;
+        row-gap: 24px;
+    }
+    
+    .griditem{
+        /* display: grid; */
+        border-radius: 6px;
+        
+    
+    }
+    
+    .item1{
+        border-top: 4px solid rgba(68, 211, 210, 1);
+        background-color: white;
+        display: grid;
+        width: 311px;
+        height: 222px;
+        grid-column: 1/2;
+        margin-top: -500px;
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+      
+        
+    
+    }
+    
+    
+    
+    
+    
+    .item2{
+    
+        border-top: 4px solid rgba(234, 84, 84, 1);
+            background-color:white;
+            display: grid;
+            width: 311px;
+            height: 222px;
+            grid-column: 1/2;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+            margin-top: -130px
+         
+        }
+    
+    
+    .item3{
+        border-top: 4px solid rgba(252, 174, 74, 1);
+        background-color: white;
+        display: grid;
+        width: 311px;
+        height: 222px;
+        grid-column: 1/2;
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+        .item4{
+            border-top: 4px solid rgba(84, 158, 242, 1);
+            background-color: white;
+            display: grid;
+            width: 311px;
+            height: 222px;
+            grid-column: 1/2;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+        
+        
+        
+        
+        }
+    
+        /* .header{
+    
+            margin:0;
+            /* border-top-left-radius:25px;
+            border-top-right-radius:25px; */
+            /* width: 312px;
+            height: 3.55px;
+            background-color: rgba(68, 211, 210, 1);
+            border-radius: 5px;
+            
+            */
+            
+        
+    
+            .super{
+                    font-weight: 600px;
+                    width: 109px;
+                    height: 30px;
+                    font-family:Poppins;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: rgba(77, 79, 98, 1);
+                    line-height: 30px;
+                    padding: 27px 28px;
+    
+            }
+    
+            .to{
+                width: 256px;
+                height: 46px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 15px;
+                color: rgba(77, 79, 98, 1);
+                line-height: 23px;
+                opacity: 50%;
+                padding: -0px 28px 118px;
+                margin-top: 5px;
+    
+    
+            }
+    
+    
+            .image1{
+    
+                width: 57px;
+                height: 57px;
+              margin: -70px 230px ;
+    
+    
+    
+    
+    
+            }
+    
+            .team{
+    
+                font-weight: 600px;
+                width: 109px;
+                height: 30px;
+                font-family:Poppins;
+                font-weight: 600;
+                font-size: 20px;
+                color: rgba(77, 79, 98, 1);
+                display: flex;
+                /* line-height: 30px; */
+                padding: 30px 28px;
+                white-space: nowrap;
+               
+    
+            }
+    
+            .our{
+                width: 256px;
+                height: 46px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 15px;
+                color: rgba(77, 79, 98, 1);
+                line-height: 23px;
+                opacity: 50%;
+                margin: -15px 28px;
+                /* padding: 10px 25px 5px;
+                margin-top:-32px ; */
+            }
+    
+    
+            .image2{
+    
+                width: 57px;
+                height: 57px;
+              margin: 1px 230px ;
+              margin-top: 20px;
+    
+    
+    
+            }
+    
+    
+            .karma{
+    
+                font-weight: 600px;
+                width: 109px;
+                height: 30px;
+                font-family:Poppins;
+                font-weight: 600;
+                font-size: 20px;
+                color: rgba(77, 79, 98, 1);
+                display: flex;
+                padding: 30px 28px;
+                    
+            }
+    
+    
+            .talent{
+    
+    
+                width: 256px;
+                height: 46px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 15px;
+                color: rgba(77, 79, 98, 1);
+                line-height: 23px;
+                opacity: 50%;
+                margin: -19px 28px;
+    
+            }
+    
+    
+            .image3{
+    
+                width: 57px;
+                height: 57px;
+              margin: 1px 230px ;
+              margin-top: 20px;
+    
+    
+            }
+            
+    
+            .cal{
+    
+                font-weight: 600px;
+                width: 109px;
+                height: 30px;
+                font-family:Poppins;
+                font-weight: 600;
+                font-size: 20px;
+                color: rgba(77, 79, 98, 1);
+                display: flex;
+                padding: 30px 28px;
+            }
+            
+            .data{
+    
+    
+                width: 256px;
+                height: 46px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 15px;
+                color: rgba(77, 79, 98, 1);
+                line-height: 23px;
+                opacity: 50%;
+                margin: -27px 28px;
+    
+            }
+    
+            .image4{
+    
+    
+    
+                width: 57px;
+                height: 57px;
+              margin: 1px 230px ;
+              margin-top: 20px;
+    
+            }
+    
+       .item1:hover{
+        background-color:rgba(68, 211, 210, 1) ;
+       transition: all 1s ;
+       width: 350px;
+       height: 250px;
+       transform: scale(1px 1px) ;
+     
+        
+       }
+       .item2:hover{
+    
+        background-color:rgba(234, 84, 84, 1) ;
+       transition: all 1s ;
+       width: 350px;
+       height: 250px;
+       transform: scale(1px 1px) ;
+       }
+       .item3:hover{
+    
+    
+        background-color:rgba(252, 174, 74, 1) ;
+       transition: all 1s ;
+       width: 350px;
+       height: 250px;
+       transform: scale(1px 1px) ;
+       }
+       .item4:hover{
+    
+    
+        background-color:rgba(84, 158, 242, 1);
+       transition: all 1s ;
+       width: 350px;
+       height: 250px;
+       transform: scale(1px 1px) ;
+       }
+     
